@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Testing and QA - Shail Consultancy Services</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link rel="icon" href="assets/img/logo/favicons.ico">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Template Main Inline CSS -->
+    <style>
+        .rectangle:hover {
+            box-shadow: 0 40px 26px rgba(0, 0, 0, 0.2);
+            transform: translateY(-30px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .rectangle {
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 20px;
+            position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100%;
+        }
+
+        .rectangle-top {
+            background-color: #007bff;
+            height: 6px;
+            width: 100%;
+            position: absolute;
+            top: -0.1px;
+            left: 0;
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        }
+
+        .rectangle-image {
+            width: 50%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            display: block;
+            margin: auto;
+        }
+
+        .rectangle-title {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: #007bff;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .about-text {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .row.equal-margin {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+
+        .col-md-6 {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1240px) {
+            .mb-4 {
+                margin-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .mb-4 {
+                margin-bottom: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+        <div class="container d-flex align-items-center">
+
+            <!-- Uncomment below if you prefer to use heading -->
+            <!-- <h1 class="logo">
+        <span>SHAIL</span><br>
+        <span class="subtext">Consultancy Services</span>
+      </h1> -->
+            <!-- Company Logo -->
+            <a href="index.html" class="logo me-auto"><img src="assets/img/logo/shail.png"
+                    alt="Shail Consultancy Services" class="img-fluid"></a>
+            <!-- navbar -->
+            <nav id="navbar" class="navbar order-last order-lg-0">
+                <ul>
+                    <li><a href="index.html"><i class="bi bi-house-door"></i><span>Home</span></a></li>
+                    <li class="dropdown"><a href="#" class="active"><i class="bi bi-box-seam"></i><span>Our
+                                Offerings</span><i class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="enterprise-app-dev.html"><i class="bi bi-laptop"></i><span>Enterprise App
+                                        Development</span></a></li>
+                            <li><a href="aws-solution-architect.html"><i class="bi bi-cloud"></i><span>AWS Solution
+                                        Architects</span></a></li>
+                            <li><a href="devSecOps.html"><i class="bi bi-shield-lock"></i><span>DevSecOps</span></a>
+                            </li>
+                            <li><a href="testing.html"><i class="bi bi-bug"></i><span>Testing and
+                                        QA</span></a></li>
+                            <li><a href="recruitment.html"><i
+                                        class="bi bi-person-check"></i><span>Recruitment</span></a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><i class="bi bi-info-circle"></i><span>About</span><i
+                                class="bi bi-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="mission.html"><i class="bi bi-bullseye"></i><span>Our Mission</span></a></li>
+                            <li><a href="about.html"><i class="bi bi-people"></i><span>Leadership</span></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html"><i class="bi bi-envelope"></i><span>Contact</span></a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- End navbar -->
+        </div>
+    </header><!-- End Header -->
+    <main id="main">
+        <div class="container" style="margin-top: 120px;">
+            <div class="row mb-4">
+                <div class="col-lg-6" style="padding-top: 20px;">
+                    <div class="col-lg-12">
+                        <h1 class="animate__animated animate__fadeInLeft"
+                            style="margin-bottom: 20px; color: #007bff; font-weight: 800;">
+                            Ensuring Excellence Through Comprehensive Quality Assurance
+                        </h1>
+                    </div>
+                    <div class="content animate__animated animate__fadeInLeft">
+                        <p class="about-text">Our team excels in precise defect identification and resolution,
+                            ensuring the robustness.Using advanced AI
+                            methodologies and collaborative expertise,we deliver integrated testing
+                            solutions,guaranteeing continuous improvement and excellence throughout your development
+                            lifecycle.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="animate__animated animate__fadeInRight">
+                        <img src="assets/img/testing/testing.jpg" alt="Quality Assurance"
+                            style=" width: 100%;
+                            max-width: 160%;
+                            height: 338px;
+                            border-radius: 8px;">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-margin">
+                <!-- Card 1:Automated Test Case Generation-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title conditional-margin mb-4">Automated Test Case Generation</h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">Harness the power of AI algorithms to automatically
+                                generate test cases based on requirements,code,and historical data.</li>
+                            <li style="margin-bottom: 10px;">Improve test coverage and reduce manual effort,ensuring
+                                comprehensive testing with minimal human intervention.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 2:Defect Prediction and Early Detection-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 25px;">Defect Prediction
+                        </h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">Use historical data and code analysis to predict potential
+                                defects before they become critical issues.</li>
+                            <li style="margin-bottom: 10px;">Identify risky areas in the codebase before testing begins,
+                                allowing proactive measures to mitigate issues and maintain code quality.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 3:Test Data Generation-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInRight">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 50px;">Test Data Generation</h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">Generate realistic and diverse test data using AI,covering
+                                various scenarios to ensure robust testing.</li>
+                            <li style="margin-bottom: 10px;">Create synthetic data for performance, security, and
+                                functional testing,enhancing the accuracy and reliability of test results.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row equal-margin">
+                <!-- Card 4:Dynamic Test Prioritization-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 50px;">Dynamic Test Prioritizationt</h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">Prioritize test execution based on risk factors,code
+                                changes,and business impact.</li>
+                            <li style="margin-bottom: 10px;">Optimize testing efforts by focusing on the most critical
+                                areas first,ensuring efficient use of resources and time.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 5:Automated Test Execution and Maintenance-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 25px;">Automated Test Execution
+                        </h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">AI-driven test execution reduces manual effort and
+                                increases efficiency,allowing your team to focus on high-value tasks.</li>
+                            <li style="margin-bottom: 10px;">Self-healing test scripts adapt to UI changes,reducing
+                                maintenance efforts and ensuring tests remain reliable over time.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 6:Performance Testing Optimization-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInRight">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 30px;">Performance Testing Optimization
+                        </h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">AI analyzes system behavior under load and recommends
+                                optimal load patterns to ensure your application performs well under stress.</li>
+                            <li style="margin-bottom: 30px;">Detect performance bottlenecks early,allowing for timely
+                                optimization and improved user experience.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row equal-margin">
+                <!-- Card 7:Security Testing with AI-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top"></div>
+                        <h5 class="rectangle-title mb-4" style="margin-bottom: 50px;">Security Testing with AI</h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">Use AI to identify vulnerabilities such as SQL injection
+                                and XSS in applications, safeguarding your software from potential threats.</li>
+                            <li style="margin-bottom: 10px;">Leverage advanced tools like SAST (Static Application
+                                Security Testing),DAST (Dynamic Application Security Testing),and IAST (Interactive
+                                Application Security Testing) for comprehensive security assessments.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 8:Test Environment Management-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInLeft">
+                        <div class="rectangle-top mb-4"></div>
+                        <h5 class="rectangle-title" style="margin-bottom: 25px;">Test Environment Management
+                        </h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">AI can provision,configure,and manage test environments
+                                dynamically,ensuring consistent and reliable testing conditions.</li>
+                            <li style="margin-bottom: 10px;">Optimize resource utilization and reduce the time and
+                                effort required to manage test environments.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Card 9:Regression Testing Optimization-->
+                <div class="col-md-4 mb-4 d-flex">
+                    <div class="rectangle animate__animated animate__fadeInRight">
+                        <div class="rectangle-top mb-4"></div>
+                        <h5 class="rectangle-title" style="margin-bottom: 30px;">Regression Testing Optimization</h5>
+                        <ul style="padding-left: 20px;" class="about-text">
+                            <li style="margin-bottom: 10px;">AI identifies impacted areas due to code changes,
+                                prioritizing regression tests efficiently to ensure critical functionalities are
+                                thoroughly tested.</li>
+                            <li style="margin-bottom: 10px;">Maintain high software quality even with frequent updates
+                                and changes.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </main>
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container d-md-flex justify-content-md-end py-4">
+            <div class="text-center text-md-end">
+                <div class="copyright">
+                    &copy; 2024 <strong><span>Shail Consultancy Services</span></strong>.All Rights Reserved
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
