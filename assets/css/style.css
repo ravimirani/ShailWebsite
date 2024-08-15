@@ -188,6 +188,19 @@ h6 {
   margin-left: 5px; /* Adjust margin between icon and text */
 }
 
+/* Prevent shifting the first item in dropdown menus */
+.navbar .dropdown ul li:first-child {
+  position: static;
+  left: 0;
+}
+
+@media (min-width: 1024px) {
+  .navbar li:first-child {
+    position: relative;
+    left: -16px;
+  }
+}
+
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
